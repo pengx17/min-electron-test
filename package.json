@@ -1,0 +1,28 @@
+{
+  "name": "min-electron-test",
+  "packageManager": "yarn@4.1.1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/pengx17/min-electron-test.git",
+  "author": "Peng Xiao <pengxiao@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-forge start"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/core": "^7.3.0",
+    "@electron-forge/core-utils": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-dmg": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/shared-types": "^7.3.0",
+    "@pengx17/electron-forge-maker-appimage": "^1.0.2",
+    "electron": "^29.0.1",
+    "electron-log": "^5.1.1",
+    "electron-squirrel-startup": "1.0.0",
+    "electron-window-state": "^5.0.3"
+  }
+}
